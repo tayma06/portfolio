@@ -20,7 +20,7 @@ Application web permettant d'afficher un menu de pizzas et de naviguer entre les
 Projet réalisé pour pratiquer le DOM et les modules JavaScript.
 
 ➡️ Démo en ligne :  
-https://tayma06.github.io/pizza/
+[https://tayma06.github.io/pizza/](https://tayma06.github.io/tdPizzas/)
 
 ➡️ Repository GitHub :  
 https://github.com/tayma06/pizza
