@@ -23,7 +23,7 @@ Projet réalisé pour pratiquer le DOM et les modules JavaScript.
 [https://tayma06.github.io/pizza/](https://tayma06.github.io/tdPizzas/)
 
 ➡️ Repository GitHub :  
-https://github.com/tayma06/pizza
+[https://github.com/tayma06/pizza](https://github.com/tayma06/tdPizzas.git)
 
 ---
 
