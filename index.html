@@ -1,27 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio de Tayma</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Tayma</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #fafafa;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .project h2 {
+            margin-top: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Mes projets</h1>
+    <h1>Portfolio — Tayma</h1>
+    <p class="subtitle">Étudiante en L2 Informatique • Projets de développement web</p>
 
-<h2>🧮 Calculatrice</h2>
-<p>
-    Une calculatrice en JavaScript avec interface graphique.
-</p>
-<a href="https://github.com/tayma06/ProjetCalculette.git" target="_blank">
-    👉 Voir le projet
-</a>
+    <div class="project">
+        <h2>🧮 Calculatrice JavaScript</h2>
+        <p>Une calculatrice en JavaScript avec interface graphique.</p>
+        <a href="https://tayma06.github.io/ProjetCalculette/" target="_blank">
+            ➜ Voir le projet
+        </a>
+    </div>
 
-<h2>🍕 Site de Commande Pizza</h2>
-<p>
-    Site web complet permettant de consulter et commander des pizzas.
-</p>
-<a href="https://github.com/tayma06/tdPizzas.git" target="_blank">
-    👉 Voir le site
-</a>
+    <div class="project">
+        <h2>🍕 Site de Commande Pizza</h2>
+        <p>Site web permettant d'afficher et commander des pizzas.</p>
+        <a href="https://tayma06.github.io/pizza/" target="_blank">
+            ➜ Voir le projet
+        </a>
+    </div>
+
 
 </body>
 </html>
